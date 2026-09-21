@@ -16,7 +16,7 @@ hierarchy; the leaf prompts/requirements become Tasks.
 - "Import this outline into Azure DevOps Boards with story points."
 
 ## Prerequisites
-- Azure DevOps MCP tools available (the `wit_*` and `core_*` family), authenticated to the org.
+- Azure DevOps MCP tools https://github.com/microsoft/azure-devops-mcp#remote-mcp-server-recommended available (the `wit_*` and `core_*` family), authenticated to the org.
 - PowerShell (for `.docx` extraction). Other formats can be read directly.
 - Check the workspace `AGENTS.md` for org conventions (e.g. required **project + area path**,
   "include estimated story points per user story"). Honor them.
